@@ -69,7 +69,7 @@ const SideBar = () => {
               >
                 <span className="flex items-center gap-2">
                   <Play size={18} />
-                  Animations
+                  Components
                 </span>
                 {openDropdown ? (
                   <ChevronUp size={18} />
