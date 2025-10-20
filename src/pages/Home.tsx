@@ -37,24 +37,24 @@ const Home = () => {
       description: "3D card animations with perspective effects",
       tech: "CSS 3D",
     },
-    {
-      name: "SearchAnimation",
-      title: "Search Animation",
-      description: "Expanding search with dynamic filtering",
-      tech: "React Hooks",
-    },
-    {
-      name: "SwipeCard",
-      title: "Swipe Card",
-      description: "Stack-based card interactions",
-      tech: "Gesture Handling",
-    },
-    {
-      name: "PlayfulChips",
-      title: "Selection Chips",
-      description: "Interactive multi-select components",
-      tech: "State Management",
-    },
+    // {
+    //   name: "SearchAnimation",
+    //   title: "Search Animation",
+    //   description: "Expanding search with dynamic filtering",
+    //   tech: "React Hooks",
+    // },
+    // {
+    //   name: "SwipeCard",
+    //   title: "Swipe Card",
+    //   description: "Stack-based card interactions",
+    //   tech: "Gesture Handling",
+    // },
+    // {
+    //   name: "PlayfulChips",
+    //   title: "Selection Chips",
+    //   description: "Interactive multi-select components",
+    //   tech: "State Management",
+    // },
   ];
 
   return (
