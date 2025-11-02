@@ -85,9 +85,9 @@ const Home = () => {
       {/* Section intro */}
       <div className="flex justify-between items-end mb-8 px-2">
         <div>
-          <h2 className="text-2xl font-medium text-secondary mb-1">
+          {/* <h2 className="text-2xl font-medium text-secondary mb-1">
             Latest Work
-          </h2>
+          </h2> */}
           <p className="text-secondary">Interactive demos</p>
         </div>
         <Link
