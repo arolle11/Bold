@@ -5,14 +5,15 @@ import ButtonAnimation from "../components/animations/ButtonAnimation";
 import CardFlip from "../components/animations/CardFlip";
 import CheckboxInteraction from "../components/animations/CheckboxInteraction";
 import HamburgerMenus from "../components/animations/HamburgerMenus";
+import ImageUploadAnimation from "../components/animations/ImageUploadAnimation";
 import LoadingAnimation from "../components/animations/LoadingAnimation";
 import MessagingAppInput from "../components/animations/MessagingAppInput";
 import PlayfulChips from "../components/animations/PlayfulChips";
 import RadioButton from "../components/animations/RadioButton";
 import SearchAnimation from "../components/animations/SearchAnimation";
+import SubmitButton from "../components/animations/SubmitButton";
 import SwipeCard from "../components/animations/Swipecard";
 import TodoList from "../components/animations/TodoList";
-import SubmitButton from "../components/animations/SubmitButton";
 
 type AnimationType = {
   component: JSX.Element;
@@ -101,6 +102,13 @@ const AnimationPage = () => {
       component: <LoadingAnimation />,
       title: "Loading Animation",
       description: "Loading Animation",
+      tech: "Tailwind CSS, Framer Motion",
+    },
+    ImageUploadAnimation: {
+      component: <ImageUploadAnimation />,
+      title: "Image Upload Animation",
+      description:
+        "Image upload animation with drop zone, progress bar, and preview",
       tech: "Tailwind CSS, Framer Motion",
     },
   };

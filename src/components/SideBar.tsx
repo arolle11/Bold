@@ -32,6 +32,7 @@ const SideBar = () => {
     { name: "ToDoList", title: "To do List" },
     { name: "CheckboxInteraction", title: "Checkbox Interaction" },
     { name: "LoadingAnimation", title: "Loading Animation" },
+    { name: "ImageUploadAnimation", title: "Image Upload Animation" },
   ];
   return (
     <div className="relative h-full">
